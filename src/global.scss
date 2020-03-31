@@ -1,14 +1,3 @@
-/*
- * App Global CSS
- * ----------------------------------------------------------------------------
- * Put style rules here that you want to apply globally. These styles are for
- * the entire app and not just one component. Additionally, this file can be
- * used as an entry point to import other CSS/Sass files to be included in the
- * output CSS.
- * For more information on global stylesheets, visit the documentation:
- * https://ionicframework.com/docs/layout/global-stylesheets
- */
-
 /* Core CSS required for Ionic components to work properly */
 @import "~@ionic/angular/css/core.css";
 
@@ -24,3 +13,29 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+.picker-toolbar.sc-ion-picker-ios {
+  border-bottom: 0;
+}
+.picker-toolbar.sc-ion-picker-md {
+  border-bottom: 0;
+}
+.picker-wrapper.sc-ion-picker-ios {
+  border-top: 0;
+  background: #2b2b2b;
+}
+.picker-wrapper.sc-ion-picker-md {
+  border-top: 0;
+  background: #2b2b2b;
+}
+.picker-above-highlight.sc-ion-picker-ios, .picker-below-highlight.sc-ion-picker-ios {
+  background: rgba(0,0,0,.5);
+  border: none;
+}
+.picker-above-highlight.sc-ion-picker-md, .picker-below-highlight.sc-ion-picker-md {
+  background: rgba(0,0,0,.5);
+  border: none;
+}
+.picker-opt {
+  color: white;
+}
